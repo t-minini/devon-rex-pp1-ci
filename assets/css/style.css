@@ -1,1 +1,34 @@
+/* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Caslon+Text&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; /* base font size to 10px, to facilitate using REM unit */
+}
+
+:root {
+  --green-lighter: #eaf4f4;
+  --green-light: #cce3de;
+  --green-medium: #a4c3b2;
+  --green-dark: #6b9080;
+  --black-font: #252525;
+
+  --inter: 'Inter', sans-serif;
+  --libre: 'Libre Caslon Text', serif;
+
+  --light-100: 300;
+  --regular-400: 400;
+  --medium-500: 500;
+  --bold-700: 700;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  color: var(--black);
+  flex-direction: column;
+  font-family: var(--inter);
+  background-color: var(--green-lighter);
+}
