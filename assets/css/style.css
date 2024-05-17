@@ -33,6 +33,10 @@ body {
   background-color: var(--green-lighter);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* smartphone screen size */
 @media screen and (min-width: 576px) {
 }
