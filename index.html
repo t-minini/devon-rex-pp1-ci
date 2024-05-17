@@ -21,39 +21,45 @@
   <body>
     <!-- header content  -->
     <header>
-      <a href="#hero" id="logo">Devon Rex</a>
-      <nav>
-        <ul class="nav-menu">
-          <li>
-            <a
-              href="#history"
-              aria-label="scroll the page down to the history section"
-              >History</a
-            >
-          </li>
-          <li>
-            <a
-              href="#traits"
-              aria-label="scroll the page down to the care section"
-              >Traits</a
-            >
-          </li>
-          <li>
-            <a
-              href="#care"
-              aria-label="scroll the page down to the care section"
-              >Care</a
-            >
-          </li>
-          <li>
-            <a
-              href="#gallery"
-              aria-label="scroll the page down to the gallery section"
-              >Gallery</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div>
+        <a href="#hero" id="logo">Devon Rex</a>
+        <label for="nav-toggle" class="nav-toggle-label"
+          ><i class="fa-solid fa-bars hambuger-hidden"></i
+        ></label>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+        <nav>
+          <ul class="nav-menu">
+            <li>
+              <a
+                href="#history"
+                aria-label="scroll the page down to the history section"
+                >History</a
+              >
+            </li>
+            <li>
+              <a
+                href="#traits"
+                aria-label="scroll the page down to the care section"
+                >Traits</a
+              >
+            </li>
+            <li>
+              <a
+                href="#care"
+                aria-label="scroll the page down to the care section"
+                >Care</a
+              >
+            </li>
+            <li>
+              <a
+                href="#gallery"
+                aria-label="scroll the page down to the gallery section"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <!-- main content  -->
     <main>
@@ -220,7 +226,7 @@
       </section>
       <section id="gallery">
         <h2>Gallery</h2>
-        <div>
+        <div class="img-grid">
           <img
             src="/assets/images/cat-1.png"
             alt="light gray devon rex cat"
@@ -335,5 +341,10 @@
         </p>
       </div>
     </footer>
+    <!-- Font Awesome kit  -->
+    <script
+      src="https://kit.fontawesome.com/56eb7f7bc0.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
