@@ -111,7 +111,6 @@ nav {
 .nav-menu li > a {
   font-size: 2rem;
   line-height: 2rem;
-
   color: var(--black-font);
 }
 
@@ -187,7 +186,8 @@ nav {
   align-items: center;
   flex-direction: column;
 }
-#traits div {
+
+.trait-card {
   width: 260px;
   height: 190px;
   padding: 2rem 2rem;
@@ -197,11 +197,11 @@ nav {
   background-color: var(--green-light);
 }
 
-#traits div:last-of-type {
+.trait-card :last-of-type {
   margin-bottom: 0;
 }
 
-#traits div > h3 {
+.trait-card > h3 {
   width: 100%;
   font-size: 2rem;
   text-align: center;
@@ -209,7 +209,7 @@ nav {
   font-weight: var(--bold-700);
 }
 
-#traits div > p {
+.trait-card > p {
   width: 100%;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -250,13 +250,17 @@ nav {
 }
 
 /* gallery section */
-.img-grid img {
+.img-wrapper {
+  width: 100%;
+}
+
+.img-wrapper img {
   width: 100%;
   border-radius: 2rem;
   margin-bottom: 2rem;
 }
 
-.img-grid img:last-of-type {
+.img-wrapper img:last-of-type {
   margin-bottom: 0;
 }
 
@@ -382,6 +386,96 @@ nav {
 }
 /* tablet screen size */
 @media screen and (min-width: 768px) {
+  section {
+    padding-bottom: 15%;
+  }
+
+  h2 {
+    margin-bottom: 3rem;
+  }
+
+  nav {
+    top: unset;
+    width: unset;
+    margin-top: 0;
+    display: block;
+    padding: unset;
+    position: relative;
+    padding-right: 1rem;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin-top: unset;
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #hero {
+    flex-direction: unset;
+    max-width: var(--content-width);
+  }
+
+  .hero-text {
+    padding-top: unset;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    width: 100%;
+    text-align: left;
+  }
+
+  .hero-text p {
+    width: 100%;
+    text-align: left;
+  }
+
+  .hero-img {
+    padding-top: 6rem;
+  }
+
+  .hero-img img {
+    width: 45rem;
+  }
+
+  #history {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: var(--content-width);
+  }
+
+  .traits-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #care div {
+    width: 600px;
+  }
+
+  .img-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 2rem;
+  }
+
+  .img-wrapper img {
+    width: 48.5%;
+    margin-bottom: 0;
+  }
 }
 /* medium screen size */
 @media screen and (min-width: 992px) {
