@@ -445,12 +445,12 @@ nav {
   .hero-img img {
     width: 45rem;
   }
+
   /* history section */
   #history {
     display: flex;
     align-items: center;
     flex-direction: column;
-    max-width: var(--content-width);
   }
 
   #history p {
@@ -553,13 +553,31 @@ nav {
   }
 
   .hero-img {
-    padding-top: 13rem;
     width: 70%;
+    padding-top: 13rem;
   }
 
   .hero-img img {
     width: 100%;
   }
+
+  /* history section */
+  #history {
+    margin: auto;
+    max-width: var(--content-width);
+  }
+
+  #history h2 {
+    font-size: 7rem;
+  }
+
+  #history p {
+    width: 100%;
+    font-size: 2.6rem;
+    line-height: 3.5rem;
+  }
+
+   /* traits section */
 }
 /* large screen size */
 @media screen and (min-width: 1200px) {
