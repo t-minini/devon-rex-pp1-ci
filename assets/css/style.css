@@ -44,7 +44,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 6rem;
+  scroll-padding-top: 7rem;
 }
 
 h2 {
@@ -75,18 +75,18 @@ header {
   background-color: var(--green-medium);
 }
 
-header > div {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 #logo {
   font-size: 2.5rem;
   text-decoration: none;
   color: var(--black-font);
   font-family: var(--libre);
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* navbar menu */
@@ -420,7 +420,7 @@ nav {
 
   #hero {
     flex-direction: unset;
-    max-width: var(--content-width);
+    /* max-width: var(--content-width); */
   }
 
   .hero-text {
@@ -515,6 +515,51 @@ nav {
 }
 /* medium screen size */
 @media screen and (min-width: 992px) {
+  /* navbar  */
+  header {
+    height: 70px;
+  }
+
+  #logo {
+    font-size: 4rem;
+  }
+
+  .navbar {
+    margin: auto;
+    max-width: var(--content-width);
+  }
+
+  /* navbar menu */
+  .nav-menu li > a {
+    font-size: 2.2rem;
+  }
+
+  /* hero section */
+  #hero {
+    margin: auto;
+    max-width: var(--content-width);
+  }
+  .hero-text {
+    width: 50%;
+  }
+
+  .hero-text h1 {
+    font-size: 8rem;
+  }
+
+  .hero-text p {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .hero-img {
+    padding-top: 13rem;
+    width: 70%;
+  }
+
+  .hero-img img {
+    width: 100%;
+  }
 }
 /* large screen size */
 @media screen and (min-width: 1200px) {
