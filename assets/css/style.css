@@ -547,16 +547,19 @@ nav {
     margin: auto;
     max-width: var(--content-width);
   }
+
   .hero-text {
-    width: 50%;
+    width: 60%;
+    padding-left: 0;
   }
 
   .hero-text h1 {
-    font-size: 8rem;
+    font-size: 7rem;
+    
   }
 
   .hero-text p {
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 3rem;
   }
 
@@ -576,12 +579,12 @@ nav {
   }
 
   #history h2 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   #history p {
     width: 100%;
-    font-size: 2.6rem;
+    font-size: 2.3rem;
     line-height: 3.5rem;
   }
 
@@ -592,7 +595,7 @@ nav {
   }
 
   #traits h2 {
-    font-size: 7rem;
+    font-size: 6rem;
   }
 
   .traits-wrapper {
@@ -602,10 +605,6 @@ nav {
     justify-items: center;
     align-items: center;
     row-gap: 20px;
-  }
-
-  .trait-card {
-    margin: 0;
   }
 
   .traits-wrapper > :nth-child(1) {
@@ -641,6 +640,21 @@ nav {
 
   .traits-wrapper > :nth-child(8) {
     grid-column: 5 / 7;
+  }
+
+  .trait-card {
+    margin: 0;
+    width: 315px;
+    height: 260px;
+  }
+
+  .trait-card h3 {
+    font-size: 2.8rem;
+  }
+
+  .trait-card p {
+    font-size: 2.3rem;
+    line-height: 2.4rem;
   }
 }
 /* large screen size */
