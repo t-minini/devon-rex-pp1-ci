@@ -390,10 +390,6 @@ nav {
 
 /* tablet screen size (iPad Mini) */
 @media screen and (min-width: 768px) {
-  section {
-    padding-bottom: 10%;
-  }
-
   h2 {
     margin-bottom: 2.5rem;
   }
@@ -521,6 +517,7 @@ nav {
     margin-top: 1rem;
   }
 }
+
 /* medium screen size */
 @media screen and (min-width: 992px) {
   /* navbar  */
@@ -549,22 +546,11 @@ nav {
   }
 
   .hero-text {
-    width: 60%;
+    width: 45%;
     padding-left: 0;
   }
 
-  .hero-text h1 {
-    font-size: 7rem;
-    
-  }
-
-  .hero-text p {
-    font-size: 2.3rem;
-    line-height: 3rem;
-  }
-
   .hero-img {
-    width: 70%;
     padding-top: 13rem;
   }
 
@@ -579,13 +565,12 @@ nav {
   }
 
   #history h2 {
-    font-size: 6rem;
+    font-size: 3.5rem;
   }
 
   #history p {
     width: 100%;
-    font-size: 2.3rem;
-    line-height: 3.5rem;
+    line-height: 2.5rem;
   }
 
   /* traits section */
