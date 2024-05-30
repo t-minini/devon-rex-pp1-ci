@@ -116,6 +116,11 @@ nav {
   color: var(--black-font);
 }
 
+.nav-menu li > a:hover {
+  color: var(--green-darker);
+  text-decoration: underline;
+}
+
 #nav-toggle:checked ~ nav {
   display: block;
 }
