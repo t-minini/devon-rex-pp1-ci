@@ -11,12 +11,14 @@
 
 :root {
   --green-lighter: #eaf4f4;
+  --white-font: #ffffff;
+  --white-font-svg: invert(100%) sepia(0%) saturate(2%) hue-rotate(228deg)
+    brightness(104%) contrast(101%);
   --green-light: #cce3de;
-  --green-light-svg: invert(91%) sepia(14%) saturate(203%) hue-rotate(117deg)
-    brightness(98%) contrast(89%);
   --green-medium: #a4c3b2;
   --green-medium-opacity: rgba(164, 195, 178, 0.7);
   --green-dark: #6b9080;
+  --green-darker: #475c53;
   --green-dark-svg: invert(55%) sepia(19%) saturate(420%) hue-rotate(102deg)
     brightness(93%) contrast(87%);
   --black-font: #252525;
@@ -272,14 +274,15 @@ nav {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: var(--green-dark);
+  color: var(--white-font);
+  background-color: var(--green-darker);
 }
 
 #footer h3 {
   font-size: 4.2rem;
   text-decoration: none;
   padding-bottom: 1.5rem;
-  color: var(--black-font);
+  color: var(--white-font);
   font-family: var(--libre);
 }
 
@@ -291,7 +294,6 @@ nav {
   font-size: 1.6rem;
   line-height: 1.6rem;
   text-transform: uppercase;
-  color: var(--green-lighter);
 }
 
 .input-btn {
@@ -312,18 +314,18 @@ nav {
   color: var(--green-dark);
   font-family: var(--inter);
   font-weight: var(--regular-400);
-  background-color: var(--green-lighter);
+  background-color: var(--white-font);
 }
 
 .input-btn input::placeholder {
-  color: var(--green-dark);
+  color: var(--green-darker);
   font-family: var(--inter);
   font-weight: var(--regular-400);
 }
 
 .input-btn input:focus {
   outline: none;
-  border-color: var(--green-light);
+  border: 2px solid var(--green-medium);
 }
 
 .input-btn button {
@@ -332,9 +334,9 @@ nav {
   font-size: 1.4rem;
   margin-left: 1rem;
   border-radius: 1rem;
-  color: var(--green-lighter);
+  color: var(--white-font);
   background-color: var(--green-dark);
-  border: 2px solid var(--green-light);
+  border: 2px solid var(--white-font);
 }
 
 .social-links {
@@ -347,7 +349,7 @@ nav {
 .social-links li img {
   width: 2.8rem;
   height: 2.8rem;
-  filter: var(--green-light-svg);
+  filter: var(--white-font-svg);
 }
 
 .cats-footer {
@@ -544,7 +546,7 @@ nav {
   nav {
     padding-right: 0;
   }
-  
+
   .nav-menu li > a {
     font-size: 2.2rem;
   }
