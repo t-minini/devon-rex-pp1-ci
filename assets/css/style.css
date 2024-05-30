@@ -432,7 +432,6 @@ nav {
   .hero-text h1 {
     width: 100%;
     text-align: left;
-    
   }
 
   .hero-text p {
@@ -520,6 +519,10 @@ nav {
 
 /* medium screen size */
 @media screen and (min-width: 992px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+
   /* navbar  */
   header {
     height: 70px;
@@ -564,10 +567,6 @@ nav {
     max-width: var(--content-width);
   }
 
-  #history h2 {
-    font-size: 3.5rem;
-  }
-
   #history p {
     width: 100%;
     line-height: 2.5rem;
@@ -577,10 +576,6 @@ nav {
   #traits {
     margin: auto;
     max-width: var(--content-width);
-  }
-
-  #traits h2 {
-    font-size: 6rem;
   }
 
   .traits-wrapper {
@@ -629,17 +624,6 @@ nav {
 
   .trait-card {
     margin: 0;
-    width: 315px;
-    height: 260px;
-  }
-
-  .trait-card h3 {
-    font-size: 2.8rem;
-  }
-
-  .trait-card p {
-    font-size: 2.3rem;
-    line-height: 2.4rem;
   }
 }
 /* large screen size */
