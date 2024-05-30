@@ -16,6 +16,8 @@
     brightness(104%) contrast(101%);
   --green-light: #cce3de;
   --green-medium: #a4c3b2;
+  --green-medium-svg: invert(80%) sepia(14%) saturate(337%) hue-rotate(94deg)
+    brightness(92%) contrast(90%);
   --green-medium-opacity: rgba(164, 195, 178, 0.7);
   --green-dark: #6b9080;
   --green-darker: #475c53;
@@ -336,11 +338,19 @@ nav {
 .input-btn button {
   width: 9rem;
   height: 3rem;
+  border: none;
+  cursor: pointer;
   font-size: 1.4rem;
   margin-left: 1rem;
   border-radius: 1rem;
   color: var(--white-font);
   background-color: var(--green-dark);
+}
+
+.input-btn button:hover {
+  background-color: var(--green-medium);
+  color: var(--green-darker);
+  border-color: var(--green-darker);
   border: 2px solid var(--white-font);
 }
 
@@ -355,6 +365,10 @@ nav {
   width: 2.8rem;
   height: 2.8rem;
   filter: var(--white-font-svg);
+}
+
+.social-links li img:hover {
+  filter: var(--green-medium-svg);
 }
 
 .cats-footer {
