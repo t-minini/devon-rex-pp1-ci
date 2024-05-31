@@ -2,7 +2,7 @@
 
 ## Description
 
-Discover all things Devon Rex—history, traits, care tips, and fun facts about this enchanting cat breed. Your go-to resource for all things Devon Rex!
+Discover all things Devon Rex — history, traits and care tips for this enchanting cat breed. Your go-to resource for all things Devon Rex!
 
 You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-ci/)
 
@@ -26,10 +26,29 @@ You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-c
 
 > [Balsamiq](https://balsamiq.com/) wireframe
 
+<details>
+<summary> Open for desktop wireframe </summary>
+
 ![balsamiq wireframe](/assets/images/balsamiq-wireframe.png)
 
-> [Figma](https://www.figma.com/) prototype (desktop and mobile)
+</details>
+
+<br>
+
+> [Figma](https://www.figma.com/) prototype
+
+<details>
+<summary> Open for desktop prototype </summary>
 
 ![figma prototype](./assets/images/figma-prototype.png)
 
 ![figma prototype](./assets/images/figma-mobile-prototype.png)
+
+</details>
+
+<details>
+<summary> Open for mobile prototype </summary>
+
+![figma prototype](./assets/images/figma-mobile-prototype.png)
+
+</details>
