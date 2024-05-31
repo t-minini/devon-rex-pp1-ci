@@ -1,6 +1,5 @@
 # Devon Rex <img src="./assets/favicon/favicon.png" alt="devon rex face" height="50">
 
-
 ## Description
 
 Discover all things Devon Rex—history, traits, care tips, and fun facts about this enchanting cat breed. Your go-to resource for all things Devon Rex!
@@ -20,4 +19,12 @@ Discover all things Devon Rex—history, traits, care tips, and fun facts about 
 ![libre google fonts](/assets/images/libre-google-fonts.png)
 ![inter google fonts](/assets/images/inter-google-fonts.png)
 
-### **Wireframes**
+### **Wireframe and Prototype**
+
+> [Balsamiq](https://balsamiq.com/) wireframe
+
+![balsamiq wireframe](/assets/images/balsamiq-wireframe.png)
+
+> [Figma](https://www.figma.com/) prototype
+
+![figma prototype](./assets/images/figma-prototype.png)
