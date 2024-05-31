@@ -6,6 +6,14 @@ Discover all things Devon Rex — history, traits and care tips for this enchant
 
 You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-ci/)
 
+<img src="./assets/images/mockuuups-iphone-mockup.webp" alt="iphone website mockup" height="200">
+<img src="./assets/images/mockuuups-ipad-air-mockup.webp" alt="ipad website mockup" height="200">
+<img src="./assets/images/mockuuups-macbook-pro-mockup.webp" alt="macbook website mockup" height="200">
+
+![iphone mockup](/assets/images/mockuuups-iphone-mockup.webp)
+![ipad mockup](/assets/images/mockuuups-ipad-air-mockup.webp)
+![macbook mockup](/assets/images/mockuuups-macbook-pro-mockup.webp)
+
 ## **Design**
 
 ### **Colours**
