@@ -4,21 +4,17 @@
 
 Discover all things Devon Rex — history, traits and care tips for this enchanting cat breed. Your go-to resource for all things Devon Rex!
 
-You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-ci/)
-
-<img src="./assets/images/mockuuups-iphone-mockup.webp" alt="iphone website mockup" height="200">
-<img src="./assets/images/mockuuups-ipad-air-mockup.webp" alt="ipad website mockup" height="200">
-<img src="./assets/images/mockuuups-macbook-pro-mockup.webp" alt="macbook website mockup" height="200">
-
 ![iphone mockup](/assets/images/mockuuups-iphone-mockup.webp)
 ![ipad mockup](/assets/images/mockuuups-ipad-air-mockup.webp)
 ![macbook mockup](/assets/images/mockuuups-macbook-pro-mockup.webp)
+
+You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-ci/)
 
 ## **Design**
 
 ### **Colours**
 
-![Coolors Palette](/assets/images/colour-palette.png)
+![Coolors Palette](/assets/images/colour-palette.webp)
 
 ### **Typography**
 
@@ -27,8 +23,8 @@ You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-c
 - [Libre Caslon Text](https://fonts.google.com/specimen/Libre+Caslon+Text)
 - [Inter](https://fonts.google.com/specimen/Inter)
 
-![libre google fonts](/assets/images/libre-google-fonts.png)
-![inter google fonts](/assets/images/inter-google-fonts.png)
+![libre google fonts](/assets/images/libre-google-fonts.webp)
+![inter google fonts](/assets/images/inter-google-fonts.webp)
 
 ### **Wireframe and Prototype**
 
@@ -37,7 +33,7 @@ You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-c
 <details>
 <summary> Open for desktop wireframe </summary>
 
-![balsamiq wireframe](/assets/images/balsamiq-wireframe.png)
+![balsamiq wireframe](/assets/images/balsamiq-wireframe.webp)
 
 </details>
 
@@ -48,15 +44,13 @@ You can visit the live website [here!](https://t-minini.github.io/devon-rex-p1-c
 <details>
 <summary> Open for desktop prototype </summary>
 
-![figma prototype](./assets/images/figma-prototype.png)
-
-![figma prototype](./assets/images/figma-mobile-prototype.png)
+![figma prototype](./assets/images/figma-desktop-prototype.webp)
 
 </details>
 
 <details>
 <summary> Open for mobile prototype </summary>
 
-![figma prototype](./assets/images/figma-mobile-prototype.png)
+![figma prototype](./assets/images/figma-mobile-prototype.webp)
 
 </details>
