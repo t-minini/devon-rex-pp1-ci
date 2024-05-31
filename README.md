@@ -25,6 +25,8 @@ Discover all things Devon Rex—history, traits, care tips, and fun facts about 
 
 ![balsamiq wireframe](/assets/images/balsamiq-wireframe.png)
 
-> [Figma](https://www.figma.com/) prototype
+> [Figma](https://www.figma.com/) prototype (desktop and mobile)
 
-![figma prototype](./assets/images/figma-prototype.png)
+![figma prototype](./assets/images/figma-prototype.png) 
+
+![figma prototype](./assets/images/figma-mobile-prototype.png)
