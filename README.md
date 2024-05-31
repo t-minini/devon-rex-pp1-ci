@@ -124,6 +124,10 @@ The lighthouse score results can be found below.
     <td>LINK NAVBAR: Contact</td>
     <td>Not Detected</td>
   </tr>
+  <tr>
+    <td>LINK FOOTER: Devon Rex</td>
+    <td>Not Detected</td>
+  </tr>
    <tr>
     <td>LINK FOOTER: Instagram</td>
     <td>Not Detected</td>
@@ -141,10 +145,7 @@ The lighthouse score results can be found below.
     <td>LINK FOOTER: Email</td>
     <td>Not Detected</td>
   </tr>
-   <tr>
-    <td>LINK FOOTER: Devon Rex</td>
-    <td>Not Detected</td>
-  </tr>
+
    <tr>
     <td>LINK FOOTER: Tulio Minini</td>
     <td>Not Detected</td>
@@ -152,13 +153,17 @@ The lighthouse score results can be found below.
   </table>
 </details>
 
-### **Final Review**
+### **Test Final Review**
 
 The testing procedures have been executed, meeting all specified criteria. Results have been thoroughly documented, and any identified issues have been addressed. Post-testing, the website has been confirmed to be fully functional and accessible.
 
-### Tech Stack
+## Tech Stack
 
 The Star Wars Quiz Game is developed using the following tools and technologies:
 
 - **HTML**: For structuring the content and layout of the web pages.
 - **CSS**: For styling the website and making it visually appealing.
+
+## Credits
+
+<!-- Images were sourced from pexels.com and the favicon was generated using favicon.io. -->
