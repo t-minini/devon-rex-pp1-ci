@@ -1,4 +1,4 @@
-/* Google Fonts */
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Caslon+Text&display=swap');
 
 * {
@@ -13,6 +13,7 @@
   --white-font: #ffffff;
   --white-font-svg: invert(100%) sepia(0%) saturate(2%) hue-rotate(228deg)
     brightness(104%) contrast(101%);
+  --black-font: #252525;
 
   --green-lighter: #eaf4f4;
   --green-light: #cce3de;
@@ -24,7 +25,6 @@
   --green-dark-svg: invert(55%) sepia(19%) saturate(420%) hue-rotate(102deg)
     brightness(93%) contrast(87%);
   --green-darker: #475c53;
-  --black-font: #252525;
 
   --inter: 'Inter', sans-serif;
   --libre: 'Libre Caslon Text', serif;
@@ -34,8 +34,8 @@
   --medium-500: 500;
   --bold-700: 700;
 
-  --content-width: 1024px;
   --alpha: 0.5;
+  --content-width: 1024px;
 }
 
 body {
@@ -205,13 +205,13 @@ nav {
   margin-bottom: 2.5rem;
   border: 5px solid var(--green-dark);
   background-color: var(--green-light);
-  -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .trait-card:hover {
   -webkit-transform: scale(1.09);
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .trait-card:last-of-type {
@@ -276,14 +276,14 @@ nav {
   border-radius: 2rem;
   margin-bottom: 2rem;
   -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .img-wrapper img:hover {
   -webkit-transform: scale(1.09);
-	transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .img-wrapper img:last-of-type {
