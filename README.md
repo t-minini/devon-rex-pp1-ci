@@ -100,125 +100,63 @@ The lighthouse score results can be found below.
     <th>Features</th>
     <th>Bugs/Issues</th>
   </tr>
+   <tr>
+    <td>LINK NAVBAR: Devon Rex</td>
+    <td>Not Detected</td>
+  </tr>
   <tr>
-    <td>LINKS: Start button</td>
+    <td>LINK NAVBAR: History</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>LINKS: Rules Button</td>
+    <td>LINKS NAVBAR: Traits </td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>LINKS: Teams button</td>
+    <td>LINK NAVBAR: Care</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>LINKS: Git Hub button</td>
+    <td>LINK NAVBAR: Gallery</td>
     <td>Not Detected</td>
   </tr>
  <tr>
-    <td>LINKS: LinkedIn button</td>
+    <td>LINK NAVBAR: Contact</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>LINKS: Repository button</td>
+    <td>LINK FOOTER: Instagram</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>LINKS: Return Home button</td>
-    <td>Not Detected</td>
-  </tr>
-  </tr>
-   <tr>
-    <td>LINKS: StarWars Home button</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS: Results button</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS: Quiz 1 Results button</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS: Quiz 2 Results button</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS: Quiz 3 Results Button</td>
-    <td>Not Detected</td>
-  </tr>
-  <tr>
-    <td>LINKS: start Button </td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS: start Button </td>
-    <td>Not Detected</td>
-  </tr>
-
-  </table>
-  <br>
-<table>
-  <tr>
-    <th>Quiz</th>
-    <th>Bugs/Issues</th>
-  </tr>
-  <tr>
-    <td>Red color if the answer was incorrect </td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>Green color if the answer was correct</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>when selection an an option while hoovering the backgrounds changes to yellow </td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>with every wrong answer the wrong score turns red and adds a number to it </td>
-    <td>Not Detected</td>
-  </tr>
- <tr>
-    <td>with every right answer the right score turns green and adds a number to it</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>Sounds effect when starting the game</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>Button for silencing the sound effects </td>
+    <td>LINK FOOTER: X</td>
     <td>Not Detected</td>
   </tr>
   </tr>
    <tr>
-    <td>Game Over card appearing at the end of the game</td>
+    <td>LINK FOOTER: Facebook</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>Game Over final results</td>
+    <td>LINK FOOTER: Email</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>Enter name input text field</td>
+    <td>LINK FOOTER: Devon Rex</td>
     <td>Not Detected</td>
   </tr>
    <tr>
-    <td>Save button</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>Home Button</td>
+    <td>LINK FOOTER: Tulio Minini</td>
     <td>Not Detected</td>
   </tr>
   </table>
-
 </details>
 
-## Tech Stack
+### **Final Review**
+
+The testing procedures have been executed, meeting all specified criteria. Results have been thoroughly documented, and any identified issues have been addressed. Post-testing, the website has been confirmed to be fully functional and accessible.
+
+### Tech Stack
 
 The Star Wars Quiz Game is developed using the following tools and technologies:
 
