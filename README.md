@@ -1,4 +1,5 @@
-# Code Institute Project 1 - Devon Rex
+# Devon Rex <img src="./assets/favicon/favicon.png" alt="devon rex face" height="50">
+
 
 ## Description
 
