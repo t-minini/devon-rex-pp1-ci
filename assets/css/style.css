@@ -10,19 +10,20 @@
 }
 
 :root {
-  --green-lighter: #eaf4f4;
   --white-font: #ffffff;
   --white-font-svg: invert(100%) sepia(0%) saturate(2%) hue-rotate(228deg)
     brightness(104%) contrast(101%);
+
+  --green-lighter: #eaf4f4;
   --green-light: #cce3de;
   --green-medium: #a4c3b2;
   --green-medium-svg: invert(80%) sepia(14%) saturate(337%) hue-rotate(94deg)
     brightness(92%) contrast(90%);
   --green-medium-opacity: rgba(164, 195, 178, 0.7);
   --green-dark: #6b9080;
-  --green-darker: #475c53;
   --green-dark-svg: invert(55%) sepia(19%) saturate(420%) hue-rotate(102deg)
     brightness(93%) contrast(87%);
+  --green-darker: #475c53;
   --black-font: #252525;
 
   --inter: 'Inter', sans-serif;
