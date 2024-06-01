@@ -389,8 +389,8 @@ nav {
   font-size: 1.4rem;
   margin-left: 1rem;
   border-radius: 1rem;
-  color: var(--white-font);
-  background-color: var(--green-dark);
+  color: var(--green-darker);
+  background-color: var(--green-light);
 }
 
 .input-btn button:hover {
@@ -425,13 +425,13 @@ nav {
 
 .developer p {
   font-size: 1rem;
-  color: var(--green-medium);
+  color: var(--white-font);
 }
 
 .developer a {
   font-size: 1rem;
   text-decoration: underline;
-  color: var(--green-medium);
+  color: var(--white-font);
 }
 
 /* smartphone larger screen size and landscape */
