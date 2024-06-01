@@ -2,7 +2,7 @@
 
 ## Description
 
-Discover all things Devon Rex — history, traits and care tips for this enchanting cat breed. Your go-to resource for all things Devon Rex!
+Discover all things Devon Rex — history, traits and care tips for this enchanting cat breed.
 
 ![iphone mockup](/assets/images/mockuuups-iphone-mockup.webp)
 ![ipad mockup](/assets/images/mockuuups-ipad-air-mockup.webp)
@@ -59,7 +59,11 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 Manual tests were carried out throughout the process.
 
-Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues.
+Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
+
+- Chrome
+- Safari
+- Firefox
 
 <details>
 <summary> HTML Validation </summary>
@@ -159,10 +163,47 @@ The testing procedures have been executed, meeting all specified criteria. Resul
 
 ## Tech Stack
 
-The Star Wars Quiz Game is developed using the following tools and technologies:
+This website is developed using the following technologies:
 
-- **HTML**: For structuring the content and layout of the web pages.
-- **CSS**: For styling the website and making it visually appealing.
+**HTML**: For structuring the content and layout of the web pages.
+
+**CSS**: For styling the website and making it visually appealing.
+
+## Tools Used
+
+This website is developed using the following tools:
+
+**GitHub**: Used for version control and code storage. GitHub allows for collaborative development, issue tracking, and code review, ensuring a smooth workflow and version management.
+  
+**Netlify**: Used to deploy the website. Netlify offers seamless continuous deployment and provides a range of features such as form handling, serverless functions, and a global CDN for fast content delivery.
+
+**VS Code**: Integrated Development Environment (IDE) used to write, edit, and debug code. VS Code supports numerous extensions that enhance productivity, such as Git integration, syntax highlighting, and linting tools.
+
+**Google DevTools**: A set of web developer tools built directly into the Google Chrome browser. Google DevTools provides features for debugging, editing CSS and HTML on the fly, and analyzing website performance.
+
+**Google Fonts**: A library of over a thousand free and open-source font families. Google Fonts ensures consistent and aesthetically pleasing typography across different browsers and devices.
+
+**Font Awesome**: A toolkit for using icons and social logos on your website. Font Awesome icons are vector-based, which makes them highly customizable in terms of size, color, and positioning.
+
+**Figma**: A web-based design tool used for creating user interfaces and prototyping. Figma enables real-time collaboration, making it easy to gather feedback and iterate on design ideas.
+
+**Balsamiq**: A wireframing tool used to create low-fidelity mockups. Balsamiq helps in quickly visualizing the structure and layout of web pages before moving on to high-fidelity design.
+
+**W3C Markup Validation Service**: A tool provided by the World Wide Web Consortium (W3C) to validate HTML and XHTML documents. This service checks for errors in the markup to ensure compliance with web standards.
+
+**W3C CSS Validation Service**: A tool provided by W3C to validate CSS code. It helps in identifying errors and potential issues in the stylesheet, ensuring it adheres to CSS standards.
+
+**WAVE Accessibility**: A web accessibility evaluation tool. WAVE helps in identifying accessibility issues on web pages, ensuring they are accessible to users with disabilities.
+
+**Google Lighthouse**: An open-source, automated tool for improving the quality of web pages. Lighthouse audits performance, accessibility, SEO, and other best practices, providing insights and recommendations for improvement.
+
+**Prettier**: A code formatter that enforces a consistent style by parsing your code and re-printing it with its rules. Prettier helps maintain clean and readable code throughout the project.
+
+**Birme**: An online bulk image resizing tool. Birme is used to resize images quickly and efficiently, ensuring that they are optimized for the web without compromising on quality.
+
+Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
+
+
 
 ## Credits
 
