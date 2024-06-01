@@ -28,7 +28,7 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ### **Wireframe and Prototype**
 
-> [Balsamiq](https://balsamiq.com/) wireframe
+### [Balsamiq](https://balsamiq.com/) wireframe:
 
 <details>
 <summary> Open for desktop wireframe </summary>
@@ -37,9 +37,7 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 </details>
 
-<br>
-
-> [Figma](https://www.figma.com/) prototype
+### [Figma](https://www.figma.com/) prototype:
 
 <details>
 <summary> Open for desktop prototype </summary>
@@ -57,105 +55,48 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ## Testing
 
-Manual tests were carried out throughout the process.
-
 Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
 
 - Chrome
+
 - Safari
+
 - Firefox
 
-<details>
-<summary> HTML Validation </summary>
+### **HTML Validation**
 
-<br>
+All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
+![w3c html validation](./assets/images/wc3-html-validator.webp)
 
-All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator.
+### **CSS Validation**
 
-</details>
+All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
+![w3c css validation](./assets/images/jigsaw-css-validator.webp)
 
-<details>
-<summary> CSS Validation </summary>
-
-<br>
-
-All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator.
-
-</details>
-
-<details>
-<summary> Google Lighthouse</summary>
-
-<br>
+### **Google Lighthouse**
 
 The lighthouse score results can be found below.
 
-<!-- <img src="assets/images/lighthouse.png" alt="Lighthouse" width="300"/> -->
+![google lighthouse](./assets/images/google-lighthouse-test.webp)
 
-</details>
+### **Manual Testing**
 
-<details>
-<summary> Manual Testing</summary>
-
-<br>
-
-<table>
-  <tr>
-    <th>Features</th>
-    <th>Bugs/Issues</th>
-  </tr>
-   <tr>
-    <td>LINK NAVBAR: Devon Rex</td>
-    <td>Not Detected</td>
-  </tr>
-  <tr>
-    <td>LINK NAVBAR: History</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINKS NAVBAR: Traits </td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINK NAVBAR: Care</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINK NAVBAR: Gallery</td>
-    <td>Not Detected</td>
-  </tr>
- <tr>
-    <td>LINK NAVBAR: Contact</td>
-    <td>Not Detected</td>
-  </tr>
-  <tr>
-    <td>LINK FOOTER: Devon Rex</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINK FOOTER: Instagram</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINK FOOTER: X</td>
-    <td>Not Detected</td>
-  </tr>
-  </tr>
-   <tr>
-    <td>LINK FOOTER: Facebook</td>
-    <td>Not Detected</td>
-  </tr>
-   <tr>
-    <td>LINK FOOTER: Email</td>
-    <td>Not Detected</td>
-  </tr>
-
-   <tr>
-    <td>LINK FOOTER: Tulio Minini</td>
-    <td>Not Detected</td>
-  </tr>
-  </table>
-</details>
+|Features|Expected Outcome|Test Performed|Results|Pass/Fail|
+|--------|----------------|--------------|-------|-----------|
+|**Navbar**                                                  |
+|Devon Rex|When clicked, the page should scroll up to the top of the page|Clicked "Devon Rex" in the Navbar| Page scrolled up to the top of the page | Pass
+|History|When clicked, the page should scroll up or down to the History section|Clicked "History" in the Navbar| Page scrolled up and down to the History section| Pass
+|Traits|When clicked, the page should scroll up or down to the Traits section|Clicked "Traits" in the Navbar| Page scrolled up and down to the Traits section| Pass
+|Care|When clicked, the page should scroll up or down to the Care section|Clicked "Care" in the Navbar| Page scrolled up and down to the Care section| Pass
+|Gallery|When clicked, the page should scroll up or down to the Gallery section|Clicked "Gallery" in the Navbar| Page scrolled up and down to the Gallery section| Pass
+|Contact|When clicked, the page should scroll down to the Contact section|Clicked "Contact" in the Navbar| Page scrolled down to the Contact section| Pass
+|**Footer**                                                  |
+|Devon Rex|When clicked, the page should scroll up to the top of the page|Clicked "Devon Rex" in the Contact section| Page scrolled up to the top of the page | Pass
+|Instagram Icon|When clicked, the instagram website should open in a new broswer tab|Clicked Instagram icon in the Contact section| A new browser tab was oppened with Instagram web page | Pass
+|X / Twitter Icon|When clicked, the X / Twitter website should open in a new broswer tab|Clicked X icon in the Contact section| A new browser tab was oppened with X / Twitter web page | Pass
+|Facebook Icon|When clicked, the Facebook website should open in a new broswer tab|Clicked Facebook icon in the Contact section| A new browser tab was oppened with Facebook web page | Pass
+|Envelope Icon|When clicked, the default email app should open in a new window|Clicked Envelope icon in the Contact section| A new window was oppened with the default email provider app | Pass
+|Tulio Minini|When clicked, should open the developer linkedin page in a new browser tab|Clicked "Tulio Minini" in the Contact section| A new browser tab was oppened with the developer linkedin profile| Pass
 
 ### **Test Final Review**
 
@@ -174,7 +115,7 @@ This website is developed using the following technologies:
 This website is developed using the following tools:
 
 **GitHub**: Used for version control and code storage. GitHub allows for collaborative development, issue tracking, and code review, ensuring a smooth workflow and version management.
-  
+
 **Netlify**: Used to deploy the website. Netlify offers seamless continuous deployment and provides a range of features such as form handling, serverless functions, and a global CDN for fast content delivery.
 
 **VS Code**: Integrated Development Environment (IDE) used to write, edit, and debug code. VS Code supports numerous extensions that enhance productivity, such as Git integration, syntax highlighting, and linting tools.
@@ -203,7 +144,9 @@ This website is developed using the following tools:
 
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
 
+## Bugs
 
+<!-- Images were sourced from pexels.com and the favicon was generated using favicon.io. -->
 
 ## Credits
 
