@@ -158,4 +158,6 @@ Each of these tools plays a crucial role in the development, deployment, and mai
 
 ## Credits
 
-All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
+All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit. 
+
+Credits to: shutterstock.com @malee2, @Veera, Unsplash - @ivanlyah, Pinterest - @devonresale, @artiepaws, @estherbarcomb, @ruto_boomeowbooo, @anechka_mardar, stock.adobe.com - @aylabaha, @veera, @annaav, Getty Images/Canva Pro, Instagram - @devonrexsharing, TikTok - @user13663e.
