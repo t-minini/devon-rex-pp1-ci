@@ -87,6 +87,8 @@ The WAVE accessibility evaluation tool results can be found below.
 
 ![google lighthouse](./assets/images/wave-accessibility-evaluation.webp)
 
+![google lighthouse](/assets/images/wave-accessibility-evaluation.webp)
+
 ### **Manual Testing**
 
 | Features         | Expected Outcome                                                           | Test Performed                                | Results                                                          | Pass/Fail |
