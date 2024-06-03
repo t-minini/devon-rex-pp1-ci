@@ -116,7 +116,7 @@ When the project was first deployed, the links to the CSS files and images were 
 ![bug one](./assets/images/bug-one.webp)
 
 </details>
-<br>
+<!-- <br> -->
 
 **Steps to Reproduce:**
 
