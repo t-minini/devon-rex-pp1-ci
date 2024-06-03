@@ -106,6 +106,8 @@ The WAVE accessibility evaluation tool results can be found below.
 
 ### **Bugs**
 
+### 1. Incorrect File Paths for CSS and Images
+
 **Description:**  
 When the project was first deployed, the links to the CSS files and images were not working. This issue did not occur in the local development environment but only after deployment.
 
@@ -149,6 +151,38 @@ After:
 ```html
 <link rel="stylesheet" href="assets/css/style.css" />
 <img src="assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
+```
+
+### 2. Image Not Appearing in README.md Due to Long File Path
+
+**Description:**  
+An image in the `README.md` file was not appearing because the file path was too long. This issue was resolved by shortening the file name.
+
+<details>
+<summary> Click to see image </summary>
+
+![bug three](./assets/images/bug-three.webp)
+
+</details>
+
+**Cause:**  
+The issue was caused by the file path being too long. Some Markdown parsers or rendering engines have limitations on the length of file paths they can handle. When the file path exceeds these limitations, the parser may fail to properly render the image, resulting in it not being displayed in the `README.md` file.
+
+**Solution:**  
+Shorten the file name to ensure the image appears correctly in the `README.md` file.
+
+**Example:**
+
+Before:
+
+```markdown
+![wave accessibility evaluation](./assets/images/wave-accessibility-evaluation.webp)
+```
+
+After:
+
+```markdown
+![wave accessibility evaluation](./assets/images/wave-accessibility.webp)
 ```
 
 ### **Test Final Review**
@@ -204,3 +238,7 @@ Each of these tools plays a crucial role in the development, deployment, and mai
 All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
 
 Credits to: shutterstock.com @malee2, @Veera, Unsplash - @ivanlyah, Pinterest - @devonresale, @artiepaws, @estherbarcomb, @ruto_boomeowbooo, @anechka_mardar, stock.adobe.com - @aylabaha, @veera, @annaav, Getty Images/Canva Pro, Instagram - @devonrexsharing, TikTok - @user13663e.
+
+```
+
+```
