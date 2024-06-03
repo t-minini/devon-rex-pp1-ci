@@ -53,6 +53,8 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 </details>
 
+## Features
+
 ## Testing
 
 Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
@@ -238,7 +240,3 @@ Each of these tools plays a crucial role in the development, deployment, and mai
 All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
 
 Credits to: shutterstock.com @malee2, @Veera, Unsplash - @ivanlyah, Pinterest - @devonresale, @artiepaws, @estherbarcomb, @ruto_boomeowbooo, @anechka_mardar, stock.adobe.com - @aylabaha, @veera, @annaav, Getty Images/Canva Pro, Instagram - @devonrexsharing, TikTok - @user13663e.
-
-```
-
-```
