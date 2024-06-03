@@ -156,4 +156,4 @@ Each of these tools plays a crucial role in the development, deployment, and mai
 
 ## Credits
 
-<!-- Images were sourced from pexels.com and the favicon was generated using favicon.io. -->
+All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
