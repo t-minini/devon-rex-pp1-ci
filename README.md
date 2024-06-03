@@ -104,6 +104,54 @@ The WAVE accessibility evaluation tool results can be found below.
 | Envelope Icon    | When clicked, the default email app should open in a new window            | Clicked Envelope icon in the Contact section  | A new window was oppened with the default email provider app      | Pass      |
 | Tulio Minini     | When clicked, should open the developer linkedin page in a new browser tab | Clicked "Tulio Minini" in the Contact section | A new browser tab was oppened with the developer linkedin profile | Pass      |
 
+### **Bugs**
+
+**Description:**  
+When the project was first deployed, the links to the CSS files and images were not working. This issue did not occur in the local development environment but only after deployment.
+
+<details>
+<summary> Click to see images </summary>
+
+![bug two](./assets/images/bug-two.webp)
+![bug one](./assets/images/bug-one.webp)
+
+</details>
+<br>
+
+**Steps to Reproduce:**
+
+1. Deploy the project to a web server.
+2. Attempt to load the web page.
+3. Notice that the CSS styles and images do not load.
+
+**Expected Behavior:**  
+The web page should correctly load all CSS styles and images as it does in the local development environment.
+
+**Actual Behavior:**  
+The web page fails to load CSS styles and images, resulting in an unstyled page with broken image links.
+
+**Cause:**  
+The issue was caused by the use of absolute file paths for the CSS and image links, which worked locally but not in the deployed environment.
+
+**Solution:**  
+Replace absolute file paths with relative file paths in the HTML files. For example, change paths from `/path/to/file.css` to `./path/to/file.css` or `path/to/file.css`.
+
+**Example:**
+
+Before:
+
+```html
+<link rel="stylesheet" href="/assets/css/style.css" />
+<img src="/assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
+```
+
+After:
+
+```html
+<link rel="stylesheet" href="assets/css/style.css" />
+<img src="assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
+```
+
 ### **Test Final Review**
 
 The testing procedures have been executed, meeting all specified criteria. Results have been thoroughly documented, and any identified issues have been addressed. Post-testing, the website has been confirmed to be fully functional and accessible.
@@ -152,12 +200,8 @@ This website is developed using the following tools:
 
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
 
-## Bugs
-
-<!-- Images were sourced from pexels.com and the favicon was generated using favicon.io. -->
-
 ## Credits
 
-All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit. 
+All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
 
 Credits to: shutterstock.com @malee2, @Veera, Unsplash - @ivanlyah, Pinterest - @devonresale, @artiepaws, @estherbarcomb, @ruto_boomeowbooo, @anechka_mardar, stock.adobe.com - @aylabaha, @veera, @annaav, Getty Images/Canva Pro, Instagram - @devonrexsharing, TikTok - @user13663e.
