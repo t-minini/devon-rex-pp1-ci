@@ -84,10 +84,7 @@ The lighthouse score results can be found below.
 The WAVE accessibility evaluation tool results can be found below.
 
 ![wave accessibility evaluation](assets/images/wave-accessibility-evaluation.webp)
-
-![google lighthouse](./assets/images/wave-accessibility-evaluation.webp)
-
-![google lighthouse](/assets/images/wave-accessibility-evaluation.webp)
+![wave accessibility evaluation](./assets/images/website-image.webp)
 
 ### **Manual Testing**
 
