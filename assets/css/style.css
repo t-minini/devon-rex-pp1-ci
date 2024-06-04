@@ -85,18 +85,18 @@ header {
   background-color: var(--green-medium);
 }
 
-#logo {
-  font-size: 2.5rem;
-  text-decoration: none;
-  color: var(--black-font);
-  font-family: var(--libre);
-}
-
 .navbar {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar__logo {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: var(--black-font);
+  font-family: var(--libre);
 }
 
 /* navbar menu */
@@ -112,35 +112,35 @@ nav {
   background: var(--green-medium-opacity);
 }
 
-.nav-menu li {
+.navbar__menu-item {
   margin-top: 2rem;
   text-align: center;
   list-style-type: none;
 }
 
-.nav-menu li > a {
+.navbar__menu-link {
   font-size: 2rem;
   line-height: 2rem;
   color: var(--black-font);
 }
 
-.nav-menu li > a:hover {
+.navbar__menu-link:hover {
   color: var(--green-darker);
   text-decoration: underline;
 }
 
-#nav-toggle:checked ~ nav {
-  display: block;
-}
-
-#nav-toggle {
-  display: none;
-}
-
-.nav-toggle-label {
+.navbar__toggle-label {
   line-height: 0;
   font-size: 3rem;
   color: var(--green-dark);
+}
+
+.navbar__toggle-input {
+  display: none;
+}
+
+.navbar__toggle-input:checked ~ nav {
+  display: block;
 }
 
 /* hero section */
@@ -455,16 +455,16 @@ nav {
     padding-right: 1rem;
   }
 
-  .nav-menu {
+  .navbar__menu {
     display: flex;
   }
 
-  .nav-menu li {
+  .navbar__menu-item {
     margin-top: unset;
     padding-left: 3rem;
   }
 
-  .nav-toggle-label {
+  .navbar__toggle-label {
     display: none;
   }
 
@@ -576,13 +576,13 @@ nav {
     height: 70px;
   }
 
-  #logo {
-    font-size: 4rem;
-  }
-
   .navbar {
     margin: auto;
     max-width: var(--content-width);
+  }
+
+  .navbar__logo {
+    font-size: 4rem;
   }
 
   /* navbar menu */
@@ -590,7 +590,7 @@ nav {
     padding-right: 0;
   }
 
-  .nav-menu li > a {
+  .navbar__menu-link {
     font-size: 2.2rem;
   }
 

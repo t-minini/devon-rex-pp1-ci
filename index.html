@@ -33,44 +33,57 @@
     <!-- header content -->
     <header>
       <div class="navbar">
-        <a href="#hero" id="logo" title="Scroll to the top of the page"
+        <a
+          class="navbar__logo"
+          href="#hero"
+          id="logo"
+          title="Scroll to the top of the page"
           >Devon Rex</a
         >
         <label
+          class="navbar__toggle-label"
           for="nav-toggle"
-          class="nav-toggle-label"
           aria-label="toggle to open navbar menu"
           ><i class="fa-solid fa-bars hambuger-hidden"></i
         ></label>
-        <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+        <input
+          class="navbar__toggle-input"
+          type="checkbox"
+          name="nav-toggle"
+          id="nav-toggle"
+        />
         <nav>
-          <ul class="nav-menu">
-            <li>
+          <ul class="navbar__menu">
+            <li class="navbar__menu-item">
               <a
+                class="navbar__menu-link"
                 href="#history"
                 aria-label="scroll the page down to the history section"
                 title="Scroll to history section"
                 >History</a
               >
             </li>
-            <li>
+            <li class="navbar__menu-item">
               <a
+                class="navbar__menu-link"
                 href="#traits"
                 aria-label="scroll the page down to the care section"
                 title="Scroll to traits section"
                 >Traits</a
               >
             </li>
-            <li>
+            <li class="navbar__menu-item">
               <a
+                class="navbar__menu-link"
                 href="#care"
                 aria-label="scroll the page down to the care section"
                 title="Scroll to care section"
                 >Care</a
               >
             </li>
-            <li>
+            <li class="navbar__menu-item">
               <a
+                class="navbar__menu-link"
                 href="#gallery"
                 aria-label="scroll the page down to the gallery section"
                 title="Scroll to gallery section"
