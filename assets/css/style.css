@@ -63,12 +63,14 @@ main {
 
 .hero,
 .history,
-.traits {
+.traits,
+.care {
   padding-bottom: 80px;
 }
 
 .history__title,
-.traits__title {
+.traits__title,
+.care__title {
   width: 100%;
   font-size: 3rem;
   text-align: center;
@@ -244,22 +246,22 @@ nav {
 }
 
 /* care section */
-#care {
+.care {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-#care div {
+.care__container {
   width: 300px;
   margin-bottom: 3rem;
 }
 
-#care div:last-of-type {
+.care__container:last-of-type {
   margin-bottom: 0;
 }
 
-#care div > img {
+.care__icon {
   width: 100%;
   height: 4rem;
   margin-bottom: 1rem;
@@ -267,7 +269,7 @@ nav {
   filter: var(--green-dark-svg);
 }
 
-#care div > p {
+.care__text {
   width: 100%;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -520,7 +522,7 @@ nav {
   }
 
   /* care section */
-  #care div {
+  .care__container {
     width: 500px;
   }
 
@@ -682,7 +684,7 @@ nav {
   }
 
   /* care section */
-  #care {
+  .care {
     margin: auto;
     max-width: var(--content-width);
   }
