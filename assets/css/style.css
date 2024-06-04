@@ -206,7 +206,7 @@ nav {
   flex-direction: column;
 }
 
-.traits_card {
+.traits__card {
   width: 260px;
   height: 190px;
   padding: 2rem 2rem;
@@ -218,16 +218,16 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
-.traits_card:hover {
+.traits__card:hover {
   -webkit-transform: scale(1.09);
   transform: scale(1.05);
 }
 
-.traits_card:last-of-type {
+.traits__card:last-of-type {
   margin-bottom: 0;
 }
 
-.traits_card-title {
+.traits__card-title {
   width: 100%;
   font-size: 2rem;
   text-align: center;
@@ -235,7 +235,7 @@ nav {
   font-weight: var(--bold-700);
 }
 
-.traits_card-text {
+.traits__card-text {
   width: 100%;
   font-size: 1.5rem;
   line-height: 2rem;
@@ -677,7 +677,7 @@ nav {
     grid-column: 5 / 7;
   }
 
-  .traits_card {
+  .traits__card {
     margin: 0;
   }
 
