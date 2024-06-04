@@ -57,20 +57,21 @@ html {
   scroll-padding-top: 7rem;
 }
 
-h2 {
+main {
+  padding: 0 2rem;
+}
+
+.hero,
+.history {
+  padding-bottom: 80px;
+}
+
+.history__title {
   width: 100%;
   font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
   font-weight: var(--medium-500);
-}
-
-main {
-  padding: 0 2rem;
-}
-
-section {
-  padding-bottom: 80px;
 }
 
 /* navbar */
@@ -185,14 +186,14 @@ nav {
 }
 
 /* history section */
-#history p {
+.history__text {
   font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
   font-weight: var(--light-300);
 }
 
-#history p:first-of-type {
+.history__text:first-of-type {
   margin-bottom: 2rem;
 }
 
@@ -504,7 +505,7 @@ nav {
     flex-direction: column;
   }
 
-  #history p {
+  .history__text {
     width: 90%;
   }
 
@@ -619,7 +620,7 @@ nav {
     max-width: var(--content-width);
   }
 
-  #history p {
+  .history__text {
     width: 100%;
     line-height: 2.5rem;
   }
