@@ -31,8 +31,8 @@
   </head>
   <body>
     <!-- header content -->
-    <header>
-      <div class="navbar">
+    <header class="navbar">
+      <div class="navbar__container">
         <a
           class="navbar__logo"
           href="#hero"
@@ -52,7 +52,7 @@
           name="nav-toggle"
           id="nav-toggle"
         />
-        <nav>
+        <nav class="navbar__menu-container">
           <ul class="navbar__menu">
             <li class="navbar__menu-item">
               <a
@@ -356,37 +356,44 @@
       </section>
     </main>
     <!-- footer content -->
-    <footer id="footer">
-      <div class="cats-footer">
+    <footer class="footer" id="footer">
+      <div class="footer__cats-container">
         <img
+          class="footer__cat-img"
           src="./assets/images/footer-cat-two.webp"
           alt="bigger devon rex cat sitting and looking away"
           title="Credit: @annaav / stock.adobe.com"
         />
         <img
+          class="footer__cat-img"
           src="./assets/images/footer-cat-one.webp"
           alt="smaller devon rex cat sitting and looking away"
           title="Credit: @annaav / stock.adobe.com"
         />
       </div>
-      <div class="footer-content">
+      <div class="footer__content-container">
         <a href="#hero" title="Scroll to the top of the page"
-          ><h3>Devon Rex</h3></a
+          ><h3 class="footer__title">Devon Rex</h3></a
         >
-        <div class="newsletter">
-          <label for="newsletter">Sign up for our newsletter!</label>
-          <form action="./submit.html" class="input-btn">
+        <div class="footer__newsletter-container">
+          <label class="footer__newsletter-label" for="newsletter"
+            >Sign up for our newsletter!</label
+          >
+          <form action="./submit.html" class="footer__newsletter-form">
             <input
+              class="footer__newsletter-input"
               type="email"
               name="newsletter"
               id="newsletter"
               placeholder="example@email.com"
               required
             />
-            <button type="submit">Subscribe</button>
+            <button class="footer__newsletter-button" type="submit">
+              Subscribe
+            </button>
           </form>
         </div>
-        <ul class="social-links">
+        <ul class="footer__social-links">
           <li>
             <a
               href="https://www.instagram.com/"
@@ -395,6 +402,7 @@
               rel="noopener"
               title="Visit our Instagram profile"
               ><img
+                class="footer__social-icon"
                 src="assets/icons/instagram-icon.svg"
                 alt="instagram clickable icon"
             /></a>
@@ -407,6 +415,7 @@
               rel="noopener"
               title="Visit our twitter / x page"
               ><img
+                class="footer__social-icon"
                 src="assets/icons/x-twitter-icon.svg"
                 alt="twitter / x clickable icon"
             /></a>
@@ -419,6 +428,7 @@
               rel="noopener"
               title="Visit our Facebook page"
               ><img
+                class="footer__social-icon"
                 src="assets/icons/facebook-icon.svg"
                 alt="facebook clickable icon"
             /></a>
@@ -431,16 +441,18 @@
               rel="noopener"
               title="Send us an e-mail"
               ><img
+                class="footer__social-icon"
                 src="assets/icons/email-icon.svg"
                 alt="envelop clickable icon"
             /></a>
           </li>
         </ul>
       </div>
-      <div class="developer">
-        <p>
+      <div class="footer__developer-container">
+        <p class="footer__developer-text">
           Designed and developed by
           <a
+            class="footer__developer-link"
             href="https://www.linkedin.com/in/tulio-minini/"
             aria-label="visit the developer linkedin page - opens in a new tab"
             target="_blank"
