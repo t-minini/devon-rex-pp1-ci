@@ -144,22 +144,24 @@ The WAVE accessibility evaluation tool results can be found below.
 
 ### **Manual Testing**
 
-| Features         | Expected Outcome                                                           | Test Performed                                | Results                                                          | Pass/Fail |
-| ---------------- | -------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------- | --------- |
-| **Navbar**       |
-| Devon Rex        | When clicked, the page should scroll up to the top of the page             | Clicked "Devon Rex" in the Navbar             | Page scrolled up to the top of the page                          | Pass      |
-| History          | When clicked, the page should scroll up or down to the History section     | Clicked "History" in the Navbar               | Page scrolled up and down to the History section                 | Pass      |
-| Traits           | When clicked, the page should scroll up or down to the Traits section      | Clicked "Traits" in the Navbar                | Page scrolled up and down to the Traits section                  | Pass      |
-| Care             | When clicked, the page should scroll up or down to the Care section        | Clicked "Care" in the Navbar                  | Page scrolled up and down to the Care section                    | Pass      |
-| Gallery          | When clicked, the page should scroll up or down to the Gallery section     | Clicked "Gallery" in the Navbar               | Page scrolled up and down to the Gallery section                 | Pass      |
-| Contact          | When clicked, the page should scroll down to the Contact section           | Clicked "Contact" in the Navbar               | Page scrolled down to the Contact section                        | Pass      |
-| **Footer**       |
-| Devon Rex        | When clicked, the page should scroll up to the top of the page             | Clicked "Devon Rex" in the Contact section    | Page scrolled up to the top of the page                          | Pass      |
-| Instagram Icon   | When clicked, the instagram website should open in a new browser tab       | Clicked Instagram icon in the Contact section | A new browser tab was opened with Instagram web page             | Pass      |
-| X / Twitter Icon | When clicked, the X / Twitter website should open in a new browser tab     | Clicked X icon in the Contact section         | A new browser tab was opened with X / Twitter web page           | Pass      |
-| Facebook Icon    | When clicked, the Facebook website should open in a new browser tab        | Clicked Facebook icon in the Contact section  | A new browser tab was opened with Facebook web page              | Pass      |
-| Envelope Icon    | When clicked, the default email app should open in a new window            | Clicked Envelope icon in the Contact section  | A new window was opened with the default email provider app      | Pass      |
-| Tulio Minini     | When clicked, should open the developer linkedin page in a new browser tab | Clicked "Tulio Minini" in the Contact section | A new browser tab was opened with the developer linkedin profile | Pass      |
+| Features          | Expected Outcome                                                                                                         | Test Performed                                          | Results                                                          | Pass/Fail |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------- | --------- |
+| **Navbar**        |
+| Devon Rex         | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Navbar                       | Page scrolled up to the top of the page                          | Pass      |
+| History           | When clicked, the page should scroll up or down to the History section                                                   | Clicked "History" in the Navbar                         | Page scrolled up and down to the History section                 | Pass      |
+| Traits            | When clicked, the page should scroll up or down to the Traits section                                                    | Clicked "Traits" in the Navbar                          | Page scrolled up and down to the Traits section                  | Pass      |
+| Care              | When clicked, the page should scroll up or down to the Care section                                                      | Clicked "Care" in the Navbar                            | Page scrolled up and down to the Care section                    | Pass      |
+| Gallery           | When clicked, the page should scroll up or down to the Gallery section                                                   | Clicked "Gallery" in the Navbar                         | Page scrolled up and down to the Gallery section                 | Pass      |
+| Contact           | When clicked, the page should scroll down to the Footer                                                                  | Clicked "Contact" in the Navbar                         | Page scrolled down to the Footer                                 | Pass      |
+| **Footer**        |
+| Devon Rex         | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Footer                       | Page scrolled up to the top of the page                          | Pass      |
+| Instagram Icon    | When clicked, the instagram website should open in a new browser tab                                                     | Clicked Instagram icon in the Footer                    | A new browser tab was opened with Instagram web page             | Pass      |
+| X / Twitter Icon  | When clicked, the X / Twitter website should open in a new browser tab                                                   | Clicked X icon in the Footer                            | A new browser tab was opened with X / Twitter web page           | Pass      |
+| Facebook Icon     | When clicked, the Facebook website should open in a new browser tab                                                      | Clicked Facebook icon in the Footer                     | A new browser tab was opened with Facebook web page              | Pass      |
+| Envelope Icon     | When clicked, the default email app should open in a new window                                                          | Clicked Envelope icon in the Footer                     | A new window was opened with the default email provider app      | Pass      |
+| Sign Up Form      | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer          | A warning message was displayed                                  | Pass      |
+| Subscribe Button  | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer | User was directed to the subscriber page                         | Pass      |
+| Tulio Minini Link | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                    | A new browser tab was opened with the developer linkedin profile | Pass      |
 
 ### **Bugs**
 
