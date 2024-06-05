@@ -57,6 +57,59 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ## BEM Methodology
 
+BEM (Block, Element, Modifier) is a popular naming convention for classes in HTML and CSS, originally developed by Yandex. It is designed to create reusable, modular, and maintainable code.
+
+### BEM Structure
+
+BEM divides the user interface into independent blocks, which can be reused across different parts of the application. The naming convention follows a specific structure:
+
+- **Block**: The top-level component or a standalone entity that is meaningful on its own.
+  - Example: `header`, `container`, `menu`
+- **Element**: A part of a block that performs a certain function and has no standalone meaning.
+  - Example: `header__title`, `menu__item`
+- **Modifier**: A flag on a block or an element that changes its appearance or behavior.
+  - Example: `menu__item--active`, `header--large`
+
+### Naming Convention
+
+The BEM naming convention uses a double underscore (`__`) to separate elements from their block and a double hyphen (`--`) to separate modifiers from blocks or elements.
+
+- **Block**: `block-name`
+- **Element**: `block-name__element-name`
+- **Modifier**: `block-name--modifier-name` or `block-name__element-name--modifier-name`
+
+### Example
+
+```html
+<div class="menu">
+  <ul class="menu__list">
+    <li class="menu__item menu__item--active">Home</li>
+    <li class="menu__item">About</li>
+    <li class="menu__item">Contact</li>
+  </ul>
+</div>
+```
+
+In this example:
+
+- `menu` is the block.
+- `menu__list` and `menu__item` are elements of the menu block.
+- `menu__item--active` is a modifier that changes the appearance of the `menu__item` element.
+
+### Benefits of BEM
+
+1. **Clarity and Readability:** BEM makes it clear what each class refers to by looking at its name. It is easy to identify whether a class represents a block, an element, or a modifier.
+
+2. **Modularity:** BEM promotes the creation of independent components. Each block is standalone, making it easier to reuse and maintain.
+
+3. **Avoids Naming Conflicts:** The structured naming convention helps avoid class name conflicts, which are common in larger projects with many contributors.
+
+4. **Improved Maintainability:** With BEM, the CSS and HTML structure is more organized, making it easier to understand, debug, and modify the code.
+
+5. **Enhanced Scalability**: BEM's approach is particularly useful for large projects as it provides a consistent methodology for naming and structuring classes.
+
+6. **Better Collaboration:** The clarity and structure provided by BEM make it easier for multiple developers to work on the same project without confusion.
+
 ## Testing
 
 Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
