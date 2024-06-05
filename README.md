@@ -55,6 +55,8 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ## Features
 
+## BEM Methodology
+
 ## Testing
 
 Responsiveness has been checked and adjusted in Chrome Dev Tools and the site has been viewed on mobiles and desktop without issues and the following browsers:
