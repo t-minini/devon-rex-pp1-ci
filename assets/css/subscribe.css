@@ -44,34 +44,55 @@
 
 /* general styles for the body element */
 body {
+  padding: 2rem;
   display: flex;
   min-height: 100vh;
-  flex-direction: column;
+  justify-content: center;
   color: var(--black-font);
-  font-family: var(--inter);
   background-color: var(--green-lighter);
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 9rem;
-}
-
+/* subscribe section */
 .subscribe {
   display: flex;
-  height: 100dvh;
-  /* min-width: 100vw; */
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
 
 .subscribe__title {
+  width: 80%;
+  font-size: 3rem;
+  text-align: center;
+  font-family: var(--libre);
+  font-weight: var(--medium-500);
 }
 
 .subscribe__link {
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  font-size: 1.4rem;
+  margin: 3rem 0 4rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--inter);
+  color: var(--green-darker);
+  font-weight: var(--medium-500);
+  background-color: var(--green-light);
+}
+
+.subscribe__link:hover {
+  color: var(--green-darker);
+  border-color: var(--green-darker);
+  border: 2px solid var(--white-font);
+  background-color: var(--green-medium);
 }
 
 .subscribe__img {
-  height: 30rem;
+  width: 100%;
+  filter: drop-shadow(0 0 1rem var(--green-darker));
 }
