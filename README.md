@@ -59,6 +59,13 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 The `<head>` section of the Devon Rex website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph URL tag defines the canonical URL for social media, and the author tag credits Tulio Minini. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
 
+### **Navbar**
+
+Our website's navbar is your gateway to seamless navigation and effortless exploration of all that our Devon Rex cat community has to offer. Designed with user convenience in mind, our navbar provides intuitive access to key sections of the website, including Home, Traits, Care, Gallery, and Contact.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/navbar-desktop.webp" alt="navbar screenshot for desktop"/>|<img src="./assets/images/navbar-mobile.webp" alt="navbar screenshot for mobile"/>|
+
 ### **Hero Section**
 
 The "Hero" section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
@@ -75,7 +82,7 @@ The "History" section of the Devon Rex website provides a detailed account of th
 
 ### **Traits Section**
 
-The "Traits" section is thoughtfully crafted to provide visitors with a comprehensive understanding of the distinctive characteristics of Devon Rex. Through concise yet informative descriptions, each trait is elaborated upon, offering insight into its significance and relevance. The section's design features a clean layout, making it easy to navigate and digest the content. Bold headings and bullet points draw attention to key traits, while the use of descriptive language ensures clarity and engagement.
+The "Traits" section is crafted to provide visitors with a comprehensive understanding of the distinctive characteristics of Devon Rex. Each trait card is not only accompanied by concise yet informative descriptions but also features an engaging hover effect, allowing for interactive exploration. This innovative design enhances user experience, making it easier to engage with the material. Bold headings and bullet points draw attention to key traits, while the use of descriptive language ensures clarity and engagement.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/traits-section-desktop.webp" alt="traits section screenshot for desktop"/>|<img src="./assets/images/traits-section-mobile.webp" alt="traits section screenshot for mobile"/>|
@@ -89,7 +96,7 @@ The "Care" section is meticulously curated to provide Devon Rex cat enthusiasts 
 
 ### **Gallery Section**
 
-The "Gallery" section, a visual celebration of the unique charm and personality of Devon Rex cats. Immerse yourself in a curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. From adorable kittenhood to majestic adulthood, each image offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
+The "Gallery" section is a visual celebration of the unique charm and personality of Devon Rex cats. A curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. Each image is enhanced with a hover effect, allowing you to interactively explore the captivating world of Devon Rex cats. From adorable kittenhood to majestic adulthood, every picture offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/gallery-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/gallery-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
@@ -100,6 +107,13 @@ The "Footer" section, you'll find quick access to essential resources and inform
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/footer-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/footer-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
+
+### **Subscriber Page**
+
+The subscriber page is a thank-you to new subscribers, complete with a warm message, a button to return to the homepage, and a Devon Rex image. It's a cozy corner of our website dedicated to welcoming new members to our Devon Rex cat community.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/subscriber-desktop.webp" alt="subscriber page screenshot for desktop"/>|<img src="./assets/images/subscriber-mobile.webp" alt="subscriber page screenshot for mobile"/>|
 
 ## BEM Methodology
 
