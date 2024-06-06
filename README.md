@@ -55,6 +55,9 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ## Features
 
+### Meta Tags and Optimization
+The `<head>` section of the Devon Rex website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph URL tag defines the canonical URL for social media, and the author tag credits Tulio Minini. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
+
 ## BEM Methodology
 
 BEM (Block, Element, Modifier) is a popular naming convention for classes in HTML and CSS, originally developed by Yandex. It is designed to create reusable, modular, and maintainable code.
@@ -212,7 +215,7 @@ After:
 <img src="assets/images/cat-hero.webp" alt="yellow devon rex cat sitting" />
 ```
 
-### 2. Image Not Appearing in README.md Due to Long File Path
+### 2. WAVE Image Not Appearing in README.md
 
 **Description:**  
 An image in the `README.md` file was not appearing because the file path was too long. This issue was resolved by shortening the file name.
