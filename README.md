@@ -82,10 +82,17 @@ The "Traits" section is thoughtfully crafted to provide visitors with a comprehe
 
 ### **Care Section**
 
-The "Care" section is meticulously curated to provide Devon Rex cat enthusiasts with comprehensive guidance on nurturing and maintaining the well-being of these beloved feline companions. Through informative and practical advice tailored specifically to the needs of Devon Rex cats, each aspect of care is addressed, offering valuable insights and tips for optimal health and happiness. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation. Rich visuals and illustrative graphics, showcasing the unique features of Devon Rex cats, enhance the content, making it visually appealing and engaging for visitors of all backgrounds.
+The "Care" section is meticulously curated to provide Devon Rex cat enthusiasts with comprehensive guidance on nurturing and maintaining the well-being of these beloved feline companions. Through informative and practical advice tailored specifically to the needs of Devon Rex cats, each aspect of care is addressed, offering valuable insights and tips for optimal health and happiness. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/care-section-desktop.webp" alt="care section screenshot for desktop"/>|<img src="./assets/images/care-section-mobile.webp" alt="care section screenshot for mobile"/>|
+
+### **Gallery Section**
+
+The "Gallery" section, a visual celebration of the unique charm and personality of Devon Rex cats. Immerse yourself in a curated collection of photographs capturing the playful antics, expressive faces, and graceful movements of these enchanting feline companions. From adorable kittenhood to majestic adulthood, each image offers a glimpse into the captivating world of Devon Rex cats, showcasing their distinctive curly coats, large ears, and expressive eyes.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/gallery-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/gallery-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
 
 ## BEM Methodology
 
