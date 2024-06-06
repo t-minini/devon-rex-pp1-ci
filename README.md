@@ -56,7 +56,15 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 ## Features
 
 ### Meta Tags and Optimization
+
 The `<head>` section of the Devon Rex website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph URL tag defines the canonical URL for social media, and the author tag credits Tulio Minini. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
+
+### Hero Section
+
+The hero section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/website-image.webp" alt="home page screenshot for desktop" width=""/>|<img src="./assets/images/hero-section-mobile.webp" alt="home page screenshot for desktop" width=""/>|
 
 ## BEM Methodology
 
