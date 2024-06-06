@@ -94,6 +94,13 @@ The "Gallery" section, a visual celebration of the unique charm and personality 
 |-------------------|-------------------|
 |<img src="./assets/images/gallery-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/gallery-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
 
+### **Footer Section**
+
+The "Footer" section, you'll find quick access to essential resources and information to enhance your experience on our website. Stay connected with us through our social media channels, where you can join a vibrant community of Devon Rex enthusiasts, share stories, and stay updated on the latest news and events. Don't miss out on exclusive updates and tips – sign up for our newsletter to receive the latest insights and special offers directly to your inbox.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/footer-section-desktop.webp" alt="gallery section screenshot for desktop"/>|<img src="./assets/images/footer-section-mobile.webp" alt="gallery section screenshot for mobile"/>|
+
 ## BEM Methodology
 
 BEM (Block, Element, Modifier) is a popular naming convention for classes in HTML and CSS, originally developed by Yandex. It is designed to create reusable, modular, and maintainable code.
