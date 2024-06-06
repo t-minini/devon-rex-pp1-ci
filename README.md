@@ -10,6 +10,22 @@ Discover all things Devon Rex — history, traits and care tips for this enchant
 
 You can visit the live website [here!](https://devon-rex.netlify.app/)
 
+## **User Experience**
+
+This project was born out of a shared love for Devon Rex cats and to celebrate their unique qualities and provide valuable information to owners and enthusiasts.
+
+### **Project Goals**
+
+1. **Educational Resource:** To offer comprehensive care tips, breed traits, and behavior insights to both current and potential Devon Rex cat owners.
+
+2. **Community Engagement:** To foster a vibrant online community where enthusiasts can connect, share experiences, and engage with captivating content.
+
+3. **User-Friendly Experience:** To create a visually appealing and easy-to-navigate website accessible to users of all backgrounds.
+
+### **Target Audience**
+
+Our target audience includes current Devon Rex cat owners, prospective owners, and enthusiasts seeking information, community engagement, and a shared love for Devon Rex cats.
+
 ## **Design**
 
 ### **Colours**
@@ -204,28 +220,28 @@ The WAVE accessibility evaluation tool results can be found below.
 
 ### **Manual Testing**
 
-| Features          | Expected Outcome                                                                                                         | Test Performed                                          | Results                                                          | Pass/Fail |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------- | --------- |
-| **Navbar**        |
-| Devon Rex         | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Navbar                       | Page scrolled up to the top of the page                          | Pass      |
-| History           | When clicked, the page should scroll up or down to the History section                                                   | Clicked "History" in the Navbar                         | Page scrolled up and down to the History section                 | Pass      |
-| Traits            | When clicked, the page should scroll up or down to the Traits section                                                    | Clicked "Traits" in the Navbar                          | Page scrolled up and down to the Traits section                  | Pass      |
-| Care              | When clicked, the page should scroll up or down to the Care section                                                      | Clicked "Care" in the Navbar                            | Page scrolled up and down to the Care section                    | Pass      |
-| Gallery           | When clicked, the page should scroll up or down to the Gallery section                                                   | Clicked "Gallery" in the Navbar                         | Page scrolled up and down to the Gallery section                 | Pass      |
-| Contact           | When clicked, the page should scroll down to the Footer                                                                  | Clicked "Contact" in the Navbar                         | Page scrolled down to the Footer                                 | Pass      |
-| Menu Icon (Mobile Version)           | When clicked, the navbar menu should be displayed                                                                  | Clicked Menu Icon (Hamburger) in the Navbar in the mobile version| Navbar menu was displayed | Pass      |
-| Menu Icon (Mobile Version)           | If the Navbar menu is open, when clicked, the navbar menu should close       | Clicked Menu Icon (Hamburger) while the navbar menu was open, in the mobile version | Navbar menu was closed | Pass      |
-| **Footer**        |
-| Devon Rex         | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Footer                       | Page scrolled up to the top of the page                          | Pass      |
-| Instagram Icon    | When clicked, the instagram website should open in a new browser tab                                                     | Clicked Instagram icon in the Footer                    | A new browser tab was opened with Instagram web page             | Pass      |
-| X / Twitter Icon  | When clicked, the X / Twitter website should open in a new browser tab                                                   | Clicked X icon in the Footer                            | A new browser tab was opened with X / Twitter web page           | Pass      |
-| Facebook Icon     | When clicked, the Facebook website should open in a new browser tab                                                      | Clicked Facebook icon in the Footer                     | A new browser tab was opened with Facebook web page              | Pass      |
-| Envelope Icon     | When clicked, the default email app should open in a new window                                                          | Clicked Envelope icon in the Footer                     | A new window was opened with the default email provider app      | Pass      |
-| Sign Up Form      | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer          | A warning message was displayed                                  | Pass      |
-| Subscribe Button  | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer | User was directed to the subscriber page                         | Pass      |
-| Tulio Minini Link | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                    | A new browser tab was opened with the developer linkedin profile | Pass      |
+| Features                   | Expected Outcome                                                                                                         | Test Performed                                                                      | Results                                                          | Pass/Fail |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------- |
+| **Navbar**                 |
+| Devon Rex                  | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Navbar                                                   | Page scrolled up to the top of the page                          | Pass      |
+| History                    | When clicked, the page should scroll up or down to the History section                                                   | Clicked "History" in the Navbar                                                     | Page scrolled up and down to the History section                 | Pass      |
+| Traits                     | When clicked, the page should scroll up or down to the Traits section                                                    | Clicked "Traits" in the Navbar                                                      | Page scrolled up and down to the Traits section                  | Pass      |
+| Care                       | When clicked, the page should scroll up or down to the Care section                                                      | Clicked "Care" in the Navbar                                                        | Page scrolled up and down to the Care section                    | Pass      |
+| Gallery                    | When clicked, the page should scroll up or down to the Gallery section                                                   | Clicked "Gallery" in the Navbar                                                     | Page scrolled up and down to the Gallery section                 | Pass      |
+| Contact                    | When clicked, the page should scroll down to the Footer                                                                  | Clicked "Contact" in the Navbar                                                     | Page scrolled down to the Footer                                 | Pass      |
+| Menu Icon (Mobile Version) | When clicked, the navbar menu should be displayed                                                                        | Clicked Menu Icon (Hamburger) in the Navbar in the mobile version                   | Navbar menu was displayed                                        | Pass      |
+| Menu Icon (Mobile Version) | If the Navbar menu is open, when clicked, the navbar menu should close                                                   | Clicked Menu Icon (Hamburger) while the navbar menu was open, in the mobile version | Navbar menu was closed                                           | Pass      |
+| **Footer**                 |
+| Devon Rex                  | When clicked, the page should scroll up to the top of the page                                                           | Clicked "Devon Rex" in the Footer                                                   | Page scrolled up to the top of the page                          | Pass      |
+| Instagram Icon             | When clicked, the instagram website should open in a new browser tab                                                     | Clicked Instagram icon in the Footer                                                | A new browser tab was opened with Instagram web page             | Pass      |
+| X / Twitter Icon           | When clicked, the X / Twitter website should open in a new browser tab                                                   | Clicked X icon in the Footer                                                        | A new browser tab was opened with X / Twitter web page           | Pass      |
+| Facebook Icon              | When clicked, the Facebook website should open in a new browser tab                                                      | Clicked Facebook icon in the Footer                                                 | A new browser tab was opened with Facebook web page              | Pass      |
+| Envelope Icon              | When clicked, the default email app should open in a new window                                                          | Clicked Envelope icon in the Footer                                                 | A new window was opened with the default email provider app      | Pass      |
+| Sign Up Form               | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer                                      | A warning message was displayed                                  | Pass      |
+| Subscribe Button           | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer                             | User was directed to the subscriber page                         | Pass      |
+| Tulio Minini Link          | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                                                | A new browser tab was opened with the developer linkedin profile | Pass      |
 | **Subscriber Page**        |
-| Home Button         | When clicked, should be redirected to the Homepage                                                           | Clicked Home button in the Subscriber Page                       | Redirected to the Homepage                         | Pass      |
+| Home Button                | When clicked, should be redirected to the Homepage                                                                       | Clicked Home button in the Subscriber Page                                          | Redirected to the Homepage                                       | Pass      |
 
 ### **Bugs**
 
@@ -356,7 +372,29 @@ This website is developed using the following tools:
 
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
 
+## Deployment
+
+This website is deployed using Netlify.
+
+### Deployment Steps
+
+1. **Log in to Netlify:** Navigate to the [Netlify website](https://www.netlify.com/) and log in to your account.
+
+2. **Create New Site:** Once logged in, click on the "New site from Git" button.
+
+3. **Connect to GitHub:** Choose GitHub as your Git provider and authorize Netlify to access your repositories.
+
+4. **Select Repository:** Select the repository for your website, in this case, "The Force Awaken."
+
+5. **Configure Settings:** Netlify will automatically detect your build settings, but you may need to adjust them if necessary.
+
+6. **Deploy Site:** Once configured, click on the "Deploy site" button. Netlify will start building and deploying your site automatically.
+
+7. **Live Site:** After the deployment process is complete, Netlify will provide you with a unique URL for your live site. You can access your live site by visiting this URL.
+
 ## Credits
+
+No external code sources were used to develop this website.
 
 All images used in this project are credited to their respective authors. You can find the author information by hovering over each image, where the title attribute displays the credit.
 
