@@ -61,17 +61,31 @@ The `<head>` section of the Devon Rex website includes essential meta tags for S
 
 ### **Hero Section**
 
-The Hero Section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
+The "Hero" section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/hero-section-desktop.webp" alt="hero section screenshot for desktop"/>|<img src="./assets/images/hero-section-mobile.webp" alt="hero section screenshot for mobile"/>|
 
 ### **History Section**
 
-The History Section of the Devon Rex website provides a detailed account of the breed's origin and development. It explains how the Devon Rex cat breed was discovered in Devon, England, resulting from a natural genetic mutation. The section traces the breed's history from its initial discovery to its recognition by cat fanciers and breeding associations. It highlights key milestones and significant figures in the breed's development, offering a comprehensive overview of how the Devon Rex became the beloved and distinctive breed it is today.
+The "History" section of the Devon Rex website provides a detailed account of the breed's origin and development. It explains how the Devon Rex cat breed was discovered in Devon, England, resulting from a natural genetic mutation. The section traces the breed's history from its initial discovery to its recognition by cat fanciers and breeding associations. It highlights key milestones and significant figures in the breed's development, offering a comprehensive overview of how the Devon Rex became the beloved and distinctive breed it is today.
 | Desktop | Mobile |
 |-------------------|-------------------|
 |<img src="./assets/images/history-section-desktop.webp" alt="history section screenshot for desktop"/>|<img src="./assets/images/history-section-mobile.webp" alt="history section screenshot for mobile"/>|
+
+### **Traits Section**
+
+The "Traits" section is thoughtfully crafted to provide visitors with a comprehensive understanding of the distinctive characteristics of Devon Rex. Through concise yet informative descriptions, each trait is elaborated upon, offering insight into its significance and relevance. The section's design features a clean layout, making it easy to navigate and digest the content. Bold headings and bullet points draw attention to key traits, while the use of descriptive language ensures clarity and engagement.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/traits-section-desktop.webp" alt="traits section screenshot for desktop"/>|<img src="./assets/images/traits-section-mobile.webp" alt="traits section screenshot for mobile"/>|
+
+### **Care Section**
+
+The "Care" section is meticulously curated to provide Devon Rex cat enthusiasts with comprehensive guidance on nurturing and maintaining the well-being of these beloved feline companions. Through informative and practical advice tailored specifically to the needs of Devon Rex cats, each aspect of care is addressed, offering valuable insights and tips for optimal health and happiness. The section's design prioritizes user-friendliness, featuring clear headings and organized sub-sections for easy navigation. Rich visuals and illustrative graphics, showcasing the unique features of Devon Rex cats, enhance the content, making it visually appealing and engaging for visitors of all backgrounds.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/care-section-desktop.webp" alt="care section screenshot for desktop"/>|<img src="./assets/images/care-section-mobile.webp" alt="care section screenshot for mobile"/>|
 
 ## BEM Methodology
 
