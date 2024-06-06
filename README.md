@@ -392,6 +392,8 @@ This website is developed using the following tools:
 
 **LinkedIn Post Inspector**: Post Inspector can help you identify the data missing on your page, and what you need to add for your content to have better previews in posts.
 
+**ChatGPT**: Assisted in developing the website's text content, providing insights and suggestions that contributed to crafting an engaging and informative website.
+
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
 
 ## Deployment
