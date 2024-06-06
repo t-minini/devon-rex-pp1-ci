@@ -196,27 +196,49 @@ Responsiveness has been checked and adjusted in Chrome Dev Tools and the site ha
 
 - Firefox
 
-### **HTML Validation**
+### **HTML Validation (Homepage)**
 
 All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
 ![w3c html validation](./assets/images/wc3-html-validator.webp)
 
-### **CSS Validation**
+### **HTML Validation (Subscriber Page)**
+
+All HTML code has been run through the [W3C - HTML](https://validator.w3.org/) validator. Results can be found below.
+![w3c html validation](./assets/images/wc3-html-validator-subs.webp)
+
+### **CSS Validation (Homepage)**
 
 All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
 ![w3c css validation](./assets/images/jigsaw-css-validator.webp)
 
-### **Google Lighthouse**
+### **CSS Validation (Subscriber Page)**
+
+All CSS code has been run through the [W3C - CSS](https://jigsaw.w3.org/css-validator/) validator. Results can be found below.
+![w3c css validation](./assets/images/jigsaw-css-validator-subs.webp)
+
+### **Google Lighthouse (Homepage)**
 
 The lighthouse score results can be found below.
 
 ![google lighthouse](./assets/images/google-lighthouse-test.webp)
 
-### **WAVE Accessibility Evaluation**
+### **Google Lighthouse (Subscriber Page)**
+
+The lighthouse score results can be found below.
+
+![google lighthouse](./assets/images/google-lighthouse-test-subs.webp)
+
+### **WAVE Accessibility Evaluation (Homepage)**
 
 The WAVE accessibility evaluation tool results can be found below.
 
 ![wave accessibility evaluation](./assets/images/wave-accessibility.webp)
+
+### **WAVE Accessibility Evaluation (Subscriber Page)**
+
+The WAVE accessibility evaluation tool results can be found below.
+
+![wave accessibility evaluation](./assets/images/wave-accessibility-subs.webp)
 
 ### **Manual Testing**
 
