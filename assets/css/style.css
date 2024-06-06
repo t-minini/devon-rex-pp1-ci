@@ -61,6 +61,8 @@ main {
   padding: 0 2rem;
 }
 
+
+/* page sections */
 .hero,
 .history,
 .traits,
@@ -69,6 +71,7 @@ main {
   padding-bottom: 80px;
 }
 
+/* sections titles */
 .history__title,
 .traits__title,
 .care__title,
