@@ -55,16 +55,23 @@ You can visit the live website [here!](https://devon-rex.netlify.app/)
 
 ## Features
 
-### Meta Tags and Optimization
+### **Meta Tags and Optimization**
 
 The `<head>` section of the Devon Rex website includes essential meta tags for SEO and social media sharing. The meta description provides a summary for search engines, while the keywords tag helps search engines understand the site content. The Open Graph URL tag defines the canonical URL for social media, and the author tag credits Tulio Minini. The Open Graph title and image tags set the title and image for social media sharing, ensuring the content is attractive and informative when shared on platforms like Facebook and Twitter.
 
-### Hero Section
+### **Hero Section**
 
-The hero section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
+The Hero Section of the Devon Rex website features a prominent title and a subtitle. It includes a visually engaging image of a Devon Rex cat, which immediately captures visitors' attention. This section provides a quick overview of the site's content and purpose, encouraging visitors to explore more about the breed through an inviting call to action.
 | Desktop | Mobile |
 |-------------------|-------------------|
-|<img src="./assets/images/website-image.webp" alt="home page screenshot for desktop" width=""/>|<img src="./assets/images/hero-section-mobile.webp" alt="home page screenshot for desktop" width=""/>|
+|<img src="./assets/images/hero-section-desktop.webp" alt="hero section screenshot for desktop"/>|<img src="./assets/images/hero-section-mobile.webp" alt="hero section screenshot for mobile"/>|
+
+### **History Section**
+
+The History Section of the Devon Rex website provides a detailed account of the breed's origin and development. It explains how the Devon Rex cat breed was discovered in Devon, England, resulting from a natural genetic mutation. The section traces the breed's history from its initial discovery to its recognition by cat fanciers and breeding associations. It highlights key milestones and significant figures in the breed's development, offering a comprehensive overview of how the Devon Rex became the beloved and distinctive breed it is today.
+| Desktop | Mobile |
+|-------------------|-------------------|
+|<img src="./assets/images/history-section-desktop.webp" alt="history section screenshot for desktop"/>|<img src="./assets/images/history-section-mobile.webp" alt="history section screenshot for mobile"/>|
 
 ## BEM Methodology
 
