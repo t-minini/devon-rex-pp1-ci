@@ -222,6 +222,8 @@ The WAVE accessibility evaluation tool results can be found below.
 | Sign Up Form      | When an invalid email format is entered, a warning message should be displayed                                           | Typed "user@" in the email input in the Footer          | A warning message was displayed                                  | Pass      |
 | Subscribe Button  | When entering a valid email and clicking in the "subscribe" button, the user should be redirected to the subscriber page | Typed "user@gmail.com" in the email input in the Footer | User was directed to the subscriber page                         | Pass      |
 | Tulio Minini Link | When clicked, should open the developer linkedin page in a new browser tab                                               | Clicked "Tulio Minini" in the Footer                    | A new browser tab was opened with the developer linkedin profile | Pass      |
+| **Subscriber Page**        |
+| Home Button         | When clicked, should be redirected to the Homepage                                                           | Clicked Home button in the Subscriber Page                       | Redirected to the Homepage                         | Pass      |
 
 ### **Bugs**
 
