@@ -62,12 +62,12 @@ main {
 }
 
 /* page sections */
-.hero,
 .history,
 .traits,
 .care,
 .gallery {
-  /* padding-bottom: 80px; */
+  padding-bottom: 80px;
+  color: var(--green-darker);
 }
 
 /* sections titles */
