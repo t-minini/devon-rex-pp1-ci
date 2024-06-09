@@ -202,6 +202,12 @@ main {
   justify-content: center;
   color: var(--green-darker);
   background-color: var(--green-light);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.hero__button:hover {
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .hero__button-span {
