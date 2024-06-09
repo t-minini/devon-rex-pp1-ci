@@ -61,14 +61,13 @@ main {
   padding: 0 2rem;
 }
 
-
 /* page sections */
 .hero,
 .history,
 .traits,
 .care,
 .gallery {
-  padding-bottom: 80px;
+  /* padding-bottom: 80px; */
 }
 
 /* sections titles */
@@ -159,7 +158,8 @@ main {
 /* hero section */
 .hero {
   display: flex;
-  margin-top: 50px;
+  min-height: 100dvh;
+  align-items: center;
   justify-content: center;
   flex-direction: column-reverse;
 }
@@ -174,9 +174,11 @@ main {
 
 .hero__title {
   width: 100%;
-  font-size: 5rem;
+  font-size: 5.5rem;
+  line-height: 5rem;
   text-align: center;
   font-family: var(--libre);
+  color: var(--green-darker);
   font-weight: var(--regular-400);
 }
 
@@ -185,7 +187,26 @@ main {
   font-size: 1.5rem;
   line-height: 2rem;
   text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   font-weight: var(--light-300);
+}
+
+.hero__button {
+  width: 26rem;
+  height: 4rem;
+  display: flex;
+  font-size: 1.4rem;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+  color: var(--green-darker);
+  background-color: var(--green-light);
+}
+
+.hero__button-span {
+  font-size: 1.5rem;
+  font-weight: var(--bold-700);
 }
 
 .hero__img-container {
@@ -195,7 +216,6 @@ main {
 
 .hero__img {
   width: 100%;
-  filter: drop-shadow(0 0 1rem var(--green-darker));
 }
 
 /* history section */
@@ -483,31 +503,33 @@ main {
 
   /* hero section */
   .hero {
-    flex-direction: unset;
+    /* flex-direction: unset; */
   }
 
   .hero__text-container {
+    /* display: flex; */
     padding-top: unset;
-    padding-left: 2rem;
-    justify-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
   }
 
   .hero__title {
     width: 100%;
-    text-align: left;
+    margin-top: 2rem;
   }
 
   .hero__text {
-    width: 100%;
-    text-align: left;
+    width: 50rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
   }
 
   .hero__img-container {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
   }
 
   .hero__img {
-    width: 40rem;
+    width: 100%;
   }
 
   /* history section */
@@ -720,4 +742,3 @@ main {
     width: var(--content-width);
   }
 }
-
