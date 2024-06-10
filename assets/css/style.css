@@ -243,21 +243,33 @@ main {
   flex-direction: column;
 }
 
+.traits__cards-container {
+  width: 100%;
+  display: flex;
+  row-gap: 3rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .traits__card {
   width: 260px;
   height: 190px;
-  padding: 2rem 2rem;
+  display: flex;
+  align-items: center;
   border-radius: 20px;
-  margin-bottom: 2.5rem;
-  border: 5px solid var(--green-dark);
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
   background-color: var(--green-light);
   -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  transition: box-shadow 0.2s cubic-bezier(0.645, 0.45, 0.355, 1);
 }
 
 .traits__card:hover {
-  -webkit-transform: scale(1.09);
-  transform: scale(1.05);
+  box-shadow: 16px 16px 20px -4px rgba(0, 0, 0, 0.2);
 }
 
 .traits__card:last-of-type {
@@ -321,10 +333,10 @@ main {
   width: 100%;
   border-radius: 2rem;
   margin-bottom: 2rem;
-  -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: 0.3s ease-in-out;
+  -webkit-transform: scale(1);
   transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
 }
 
 .gallery__img:hover {
