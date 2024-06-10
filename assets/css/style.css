@@ -175,7 +175,7 @@ main {
 .hero__title {
   width: 100%;
   font-size: 5.5rem;
-  line-height: 5rem;
+  line-height: 4rem;
   text-align: center;
   font-family: var(--libre);
   color: var(--green-darker);
@@ -508,7 +508,6 @@ main {
   }
 
   /* hero section */
-
   .hero__text-container {
     padding-top: unset;
   }
@@ -520,8 +519,7 @@ main {
 
   .hero__text {
     width: 50rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .hero__img {
@@ -634,10 +632,16 @@ main {
   .hero__text-container {
     width: 45%;
     padding-left: 0;
+    align-items: flex-start;
+  }
+
+  .hero__title {
+    text-align: left;
   }
 
   .hero__text {
     width: 95%;
+    text-align: left;
   }
 
   /* history section */
