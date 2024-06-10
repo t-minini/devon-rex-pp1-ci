@@ -628,7 +628,6 @@ main {
 
   .hero__text-container {
     width: 45%;
-    padding-left: 0;
     align-items: flex-start;
   }
 
@@ -637,7 +636,7 @@ main {
   }
 
   .hero__text {
-    width: 95%;
+    width: 37.5rem;
     text-align: left;
   }
 
