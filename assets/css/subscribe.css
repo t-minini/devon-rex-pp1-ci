@@ -52,7 +52,7 @@ body {
 }
 
 .subscribe__link {
-  width: 9rem;
+  width: 10rem;
   height: 3rem;
   border: none;
   display: flex;
@@ -64,15 +64,13 @@ body {
   justify-content: center;
   font-family: var(--inter);
   color: var(--green-darker);
-  font-weight: var(--medium-500);
   background-color: var(--green-light);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 
 .subscribe__link:hover {
-  color: var(--green-darker);
-  border-color: var(--green-darker);
-  border: 2px solid var(--white-font);
-  background-color: var(--green-medium);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
 .subscribe__img {
