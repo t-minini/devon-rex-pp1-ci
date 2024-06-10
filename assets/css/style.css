@@ -340,12 +340,8 @@ main {
 }
 
 .gallery__img:hover {
-  -webkit-transform: scale(1.09);
   transform: scale(1.09);
-}
-
-.gallery__img:last-of-type {
-  margin-bottom: 0;
+  -webkit-transform: scale(1.09);
 }
 
 /* footer section */
@@ -565,12 +561,7 @@ main {
   /* gallery section */
   .gallery__img-container {
     column-count: 2;
-    column-gap: 1rem;
-  }
-
-  .gallery__img {
-    margin-top: 1rem;
-    margin-bottom: 0;
+    column-gap: 2rem;
   }
 
   /* footer section */
