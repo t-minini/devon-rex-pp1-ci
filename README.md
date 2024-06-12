@@ -396,6 +396,8 @@ This website is developed using the following tools:
 
 **ChatGPT**: Assisted in developing the website's text content, providing insights and suggestions that contributed to crafting an engaging and informative website.
 
+**Favicon.io**: A tool that simplifies the creation of website favicons, allowing users to easily generate icons that represent their brand across different platforms and devices.
+
 Each of these tools plays a crucial role in the development, deployment, and maintenance of the website, contributing to its overall quality and user experience.
 
 ## Deployment
