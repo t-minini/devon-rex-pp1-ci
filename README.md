@@ -1,4 +1,4 @@
-# Devon Rex <img src="./assets/favicon/favicon.png" alt="devon rex face" height="50">
+# Devon Rex <img src="./assets/images/readme-cat-img.png" alt="devon rex face" height="50">
 
 ## Description
 
